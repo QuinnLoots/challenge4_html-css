@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>challenge 4</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    </head>
+
+    <body>
+    <div class="primarycontainer">
+        <div class="logo">
+            <p><i class="fas fa-bold"></i></p>
+        </div>
+        <div class="headertext">
+            <h1>Checkout form</h1>
+            <p>Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+        </div>
+        <div><h2>Billing address</h2></div>
+        <div class="secondarycontainer">
+            <div class="space"><p>First name: </p><input type="text" name="fname"></div>
+            <div class="space"><p>Last name: </p><input type="text" name="lname"></div>
+        </div>
+        <div><p>Username: </p></div>
+        <div class="input-group">
+            <div class="input-group-icon">@</div>
+            <div class="input-group-area"><input type="text" placeholder="Username"></div>
+        </div>
+        <div><p>Email (Optional): </p><input type="text" name="email"placeholder="you@example.com"class="fixedwidth"></div>
+        <div><p>Address: </p><input type="text" name="address"placeholder="1234 Main St"class="fixedwidth"></div>
+        <div><p>Address 2 (optional): </p><input type="text" name="address2"placeholder="Apartment or suite"class="fixedwidth"></div>
+        <div class="secondarycontainer">
+            <p>Country: </p>
+            <select>
+                <option value="Choose">Choose...</option>
+                <option value="US">United States</option>
+            </select>
+
+            <p>State: </p>
+            <select>
+                <option value="Choose">Choose...</option>
+                <option value="CA">California</option>
+            </select>
+            <div><p>ZIP: </p><input type="text" name="zip"></div>
+        </div>
+        <div><input type="checkbox" name="shipping" value="ship"> Shipping address is the same as my billing address</div>
+        <div><input type="checkbox" name="save info" value="save"> Save this information for next time</div>
+    </div>
+    </body>
+</html>

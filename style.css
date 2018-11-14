@@ -1,0 +1,50 @@
+.logo, .headertext{
+    text-align: center;
+}
+
+i{
+    font-size: 60px;
+}
+.primarycontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.secondarycontainer{
+    display: flex;
+
+}
+
+.space{
+    padding-right: 10px;
+}
+
+.input-group{
+  display: table;
+  border-collapse: collapse;
+  width:370px;
+}
+.input-group > div{
+  display: table-cell;
+  border: 1px solid #7f9db9;
+  vertical-align: middle;  /* needed for Safari */
+}
+.input-group-icon{
+  background:#eee;
+  padding: 0 12px
+}
+.input-group-area{
+  width:100%;
+}
+.input-group input{
+  border: 0;
+  display: block;
+  width: 20%;
+  padding: 8px;
+}
+.fixedwidth{
+  width:370px;
+}
